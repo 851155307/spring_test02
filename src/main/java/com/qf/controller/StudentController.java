@@ -2,6 +2,7 @@ package com.qf.controller;
 
 import com.qf.entity.Student;
 import com.qf.sevice.IStudentService;
+import org.apache.ibatis.javassist.ClassPath;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
