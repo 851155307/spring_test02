@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql///mybatisdb
+    username: root
+    password: 123
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:com/qf/dao/mapper/*.xml
+  type-aliases-package: com.qf.entity
+
